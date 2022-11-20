@@ -1,0 +1,7 @@
+.menucard {
+    @apply bg-clip-padding backdrop-filter backdrop-blur-xl hover:border-white  text-white border border-[#ffffff3f]  py-4 rounded-xl w-[8rem] hover:shadow-md duration-200 transition ease-in-out text-center hover:cursor-pointer
+}
+
+.card {
+    @apply bg-clip-padding backdrop-filter backdrop-blur-xl  text-white border border-[#ffffff3f]  rounded-xl hover:shadow-md duration-200 transition ease-in-out text-center
+}
