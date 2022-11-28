@@ -2,7 +2,7 @@
 export default function ContactUs() {
     return (
       <>
-                  <div id="contact-us" className="relative flex items-top justify-center  md:-top-[5rem] sm:items-center sm:pt-0 ">
+                  <div id="contact-us" className="pb-10 flex items-top justify-center  md:-top-[5rem] sm:items-center sm:pt-0 ">
             <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
               <div className="mt-8 overflow-hidden bg-clip-padding backdrop-filter backdrop-blur-xl p-8  text-white border border-[#ffffff3f] bg-[#ffffff48] rounded-xl shadow-md duration-200 transition ease-in-out text-center">
                 <h1 className="text-5xl sm:text-5xl text-[#58623D] font-Valky font-semibold">

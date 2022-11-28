@@ -6,7 +6,7 @@ import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 export default function AboutUs() {
   return (
     <>
-      <div className="bg-[#EBEBEB] flex flex-col justify-center w-full 3xl:pt-[13rem] md:mt-[4rem] 2xl:mt-[2rem] mb-10 ">
+      <div className="bg-[#EBEBEB] flex flex-col justify-center w-full  mb-10 ">
       <div className="bg-[#EBEBEB] lg:py-12 lg:flex lg:justify-center">
         <div className="bg-white lg:mx-8 lg:flex lg:max-w-[80rem] lg:shadow-lg lg:rounded-lg">
             <div className="lg:w-1/2">

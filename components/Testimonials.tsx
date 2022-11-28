@@ -10,8 +10,8 @@ export default function Testimonials() {
           className="h-[100rem] md:h-[35rem] bg-cover bg-center bg-no-repeat brightness-75 shadow-md shadow-black"
           style={{ backgroundImage: `url("/pono.jpg")` }}></div>
         <div className="flex flex-row flex-wrap md:flex-nowrap justify-evenly px-2 md:px-20 pb-10 absolute top-10 z-20">
-          <div className="mx-auto max-w-5xl px-4 py-8">
-            <section className="rounded-lg bg-gray-100 p-8 lg:shadow-lg lg:rounded-lg">
+          <div className="mx-auto max-w-6xl px-4 py-8">
+            <section className=" p-8 lg:shadow-lg  bg-clip-padding backdrop-filter backdrop-blur-xl  text-white border border-[#ffffff3f]  py-4 rounded-2xl text-sm md:text-base hover:shadow-md duration-200 transition ease-in-out text-center">
               <div className="grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center">
                 <img
                   alt="KevinWestick"
@@ -20,7 +20,7 @@ export default function Testimonials() {
                 />
 
                 <blockquote className="sm:col-span-2 max-h-[20rem] overflow-auto">
-                  <p className="text-lg font-medium">
+                  <p className="text-base">
                     Elodie was instrumental in designing solutions to the
                     specific problems we have on our site. She was able to
                     combine a number of different strategies, from new plantings
@@ -34,7 +34,7 @@ export default function Testimonials() {
 
                   <cite className="mt-8 inline-flex items-center not-italic">
                     <span className="hidden h-px w-6 bg-gray-400 sm:inline-block"></span>
-                    <p className="text-sm uppercase text-gray-500 sm:ml-3">
+                    <p className="text-sm uppercase text-white sm:ml-3">
                       <strong>Kevin Westick</strong>, Project Recipient
                     </p>
                   </cite>
@@ -43,7 +43,7 @@ export default function Testimonials() {
             </section>
           </div>
           <div className="mx-auto max-w-5xl px-4 py-8 my-auto">
-            <section className="rounded-lg bg-gray-100 p-8 lg:shadow-lg lg:rounded-lg">
+            <section className=" p-8 lg:shadow-lg  bg-clip-padding backdrop-filter backdrop-blur-xl  text-white border border-[#ffffff3f]  py-4 rounded-2xl text-sm md:text-base hover:shadow-md duration-200 transition ease-in-out text-center">
               <div className="grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center">
                 <img
                   alt="Avatar"
@@ -52,7 +52,7 @@ export default function Testimonials() {
                 />
 
                 <blockquote className="sm:col-span-2">
-                  <p className="text-lg font-medium">
+                  <p className="text-base">
                     Elodie has demonstrated the attributes that make a good
                     Professional Biologist . She is honest, understands her
                     field of science, is competent in skills and is ethical in
@@ -61,7 +61,7 @@ export default function Testimonials() {
 
                   <cite className="mt-8 inline-flex items-center not-italic">
                     <span className="hidden h-px w-6 bg-gray-400 sm:inline-block"></span>
-                    <p className="text-sm uppercase text-gray-500 sm:ml-3">
+                    <p className="text-sm uppercase text-white sm:ml-3">
                       <strong>Dave. R. Clough</strong>, R.P. Bio.
                     </p>
                   </cite>

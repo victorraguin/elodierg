@@ -10,7 +10,7 @@ import epicButton from "../public/epicButton.png";
 export default function OurProjects() {
   return (
     <>
-      <h2 className="text-4xl md:text-6xl text-[#58623D] font-medium font-Valky text-center mt-[8rem] mb-10 ">
+      <h2 className="text-4xl md:text-6xl text-[#58623D] font-medium font-Valky text-center mb-10 ">
         Our Projects
       </h2>
       <div className="flex flex-row flex-wrap md:flex-nowrap pb-10 px-4 md:space-x-10 xl:space-x-0 md:px-20 3xl:px-60">
@@ -18,7 +18,7 @@ export default function OurProjects() {
           <Image
             src={test1}
             alt="Project1"
-            className="lg:w-[70%] rounded-2xl shadow-md shadow-black md:mb-10"
+            className="lg:w-[70%] rounded-2xl  md:mb-10"
           />
           <h3 className="text-2xl text-[#58623D]  font-semibold font-Valky text-center pt-10 md:pt-0">
             Landslide Mitigation and Erosion Control
@@ -40,7 +40,7 @@ export default function OurProjects() {
           <Image
             src={test1}
             alt="Project1"
-            className="lg:w-[70%] rounded-2xl shadow-md shadow-black  mb-10"
+            className="lg:w-[70%] rounded-2xl  mb-10"
           />
           <h3 className="text-2xl text-[#58623D]  font-Valky text-center font-semibold">
             Twinned-Watershed Project

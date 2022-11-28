@@ -5,12 +5,12 @@ import React from "react";
 export default function OurServices() {
   return (
     <>
-      <h2 className="text-4xl md:text-6xl text-[#58623D] font-medium font-Valky text-center md:mt-[8rem] mb-10 ">
+      <h2 className="text-4xl md:text-6xl text-[#58623D] font-medium font-Valky text-center mb-10 ">
         Our Services
       </h2>
       <div className="relative">
         <div
-          className="h-[45rem] md:h-[25rem] bg-cover mb-20 bg-center bg-no-repeat brightness-50 shadow-md shadow-black"
+          className="h-[45rem] md:h-[25rem] bg-cover mb-20 bg-center bg-no-repeat brightness-[0.60] shadow-md shadow-black"
           style={{ backgroundImage: `url(/transition_photo.jpg)` }}></div>
         <div className="flex absolute z-20 top-5 flex-row flex-wrap px-10 md:space-x-10 md:flex-nowrap xl:px-[5rem] 2xl:px-[10rem] md:px-[20rem] 3xl:px-[22rem] justify-around pt-10 w-full pb-4 lg:shadow-lg lg:rounded-lg">
           <div className="flex flex-col justify-center items-center w-[50%] md:w-full ">
