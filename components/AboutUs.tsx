@@ -6,14 +6,14 @@ import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 export default function AboutUs() {
   return (
     <>
-      <div className="bg-[#EBEBEB] flex flex-col justify-center w-full pt-[2rem] 3xl:pt-[10rem] ">
+      <div className="bg-[#EBEBEB] flex flex-col justify-center w-full 3xl:pt-[13rem] md:mt-[4rem] 2xl:mt-[2rem] mb-10 ">
       <div className="bg-[#EBEBEB] lg:py-12 lg:flex lg:justify-center">
         <div className="bg-white lg:mx-8 lg:flex lg:max-w-[80rem] lg:shadow-lg lg:rounded-lg">
             <div className="lg:w-1/2">
-                <div className="h-64 bg-cover lg:rounded-lg lg:h-full" style={{ backgroundImage: `url("/Elodie-Roger.jpg")` }}></div>
+                <div className="h-96 md:h-64 bg-cover lg:rounded-lg lg:h-full" style={{ backgroundImage: `url("/Elodie-Roger.jpg")` }}></div>
             </div>
             <div className="py-12 px-6 max-w-xl lg:max-w-7xl lg:w-3/4">
-                <h2 className="text-3xl text-[#58623D] font-bold">About Us</h2>
+                <h2 className="text-4xl text-[#58623D] font-semibold font-Valky">About Us</h2>
                 <p className="text-lg pt-5">
                   Hello and Welcome! My name is <b>Elodie Roger</b>, I am the founder
                   and owner of <strong>Origins Environmental Services</strong>.
@@ -43,7 +43,7 @@ export default function AboutUs() {
                   fieldwork with passion and technical expertise.
                 </p>
                 <div className="mt-8">
-                    <a href="#" className="bg-gray-900 text-gray-100 px-5 py-3 font-semibold rounded">Contact Me</a>
+                    <a href="#contact-us" className="bg-gray-900 text-gray-100 px-5 py-3 font-semibold rounded">Contact Me</a>
                 </div>
             </div>
         </div>
