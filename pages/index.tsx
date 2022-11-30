@@ -19,14 +19,14 @@ export default function Home() {
       <main className="flex flex-col justify-center items-center bg-[#EBEBEB] h-full font-Ambit">
         <div className="bg-[#EBEBEB]">
           <Intro />
-          <div className="pt-10">
+          <div className="pt-40 xl:pt-[22rem] 2xl:pt-[28rem] 3xl:pt-[35rem]">
           <AboutUs />
           </div>
           <OurServices />
           <OurProjects />
           <Testimonials />
           <ContactUs />
-          <p className="text-center pb-10">Made with ❤, by <a href="https://www.victor-raguin.fr" target="_blank" rel="noreferrer" className="underline">Victor</a></p>
+          <p className="text-center pb-10">Made with ❤, by <a href="https://fr.linkedin.com/in/victor-raguin" target="_blank" rel="noreferrer" className="underline">Victor</a></p>
         </div>
       </main>
     </div>

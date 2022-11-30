@@ -59,19 +59,6 @@ export default function OurProjects() {
           </p>
         </div>
       </div>
-      <div className="flex flex-row flex-wrap md:flex-nowrap justify-evenly px-20 pb-10">
-        <Image src={wilder} alt="Wilder Restoration" className="md:w-[40%] lg:w-[30%]" />
-        <Image
-          src={cowichan}
-          alt="Cowichan Watershed Board"
-          className="md:w-[30%] lg:w-[15%] "
-        />
-        {/* <Image
-          src={streamside}
-          alt="Streamside Native Plants"
-          className="md:w-[30%] lg:w-[20%] rounded-xl"
-        /> */}
-      </div>
       {/* <div className="relative hover:cursor-pointer pt-10">
         <Image src={epicButton} alt="Epic Button" className="w-[18%] mx-auto" />
         <h3 className="text-2xl text-[#58623D]  pt-10 font-Valky text-center font-semibold absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">

@@ -1,5 +1,5 @@
 .menucard {
-    @apply bg-clip-padding backdrop-filter backdrop-blur-2xl hover:border-white  text-white border border-[#ffffff3f]  py-4 rounded-xl text-sm md:text-base w-[4rem] md:w-[8rem] hover:shadow-md duration-200 transition ease-in-out text-center hover:cursor-pointer
+    @apply bg-clip-padding backdrop-filter backdrop-blur-2xl hover:border-white  text-white border border-[#ffffff3f]  py-4 md:py-5 rounded-xl text-sm md:text-base w-[4rem] md:w-[9rem] hover:shadow-md duration-200 transition ease-in-out text-center hover:cursor-pointer
 }
 
 .card {
