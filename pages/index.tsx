@@ -1,12 +1,12 @@
 /* eslint-disable react/jsx-no-undef */
 /* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
-import AboutUs from "../components/AboutUs";
-import ContactUs from "../components/ContactUs";
-import Intro from "../components/Intro";
-import OurProjects from "../components/OurProjects";
-import OurServices from "../components/OurServices";
-import Testimonials from "../components/Testimonials";
+import AboutUs from "../components/home/AboutUs";
+import ContactUs from "../components/home/ContactUs";
+import Intro from "../components/home/Intro";
+import OurProjects from "../components/home/OurProjects";
+import OurServices from "../components/home/OurServices";
+import Testimonials from "../components/home/Testimonials";
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
       <main className="flex flex-col justify-center items-center bg-[#EBEBEB] h-full font-Ambit">
         <div className="bg-[#EBEBEB]">
           <Intro />
-          <div className="pt-40 xl:pt-[22rem] 2xl:pt-[25rem] 3xl:pt-[35rem]">
+          <div className="pt-40 xl:pt-[22rem] 2xl:pt-[25rem] 3xl:pt-[25rem]">
           <AboutUs />
           </div>
           <OurServices />
