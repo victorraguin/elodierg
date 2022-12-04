@@ -8,18 +8,18 @@ export default function Testimonials() {
       <div className="relative">
         <div
           className="h-[100rem] md:h-[35rem] bg-cover bg-center bg-no-repeat brightness-75 shadow-md shadow-black"
-          style={{ backgroundImage: `url("/pono.jpg")` }}></div>
-        <div className="flex flex-row flex-wrap md:flex-nowrap justify-evenly px-2 md:px-20 pb-10 absolute top-10 z-20">
+          style={{ backgroundImage: `url("/testimonials-bg.jpg")` }}></div>
+        <div className="flex flex-row flex-wrap md:flex-nowrap px-2 2xl:px-40 pb-10 absolute top-[6rem] z-20">
           <div className="mx-auto max-w-6xl px-4 py-8">
-            <section className=" p-8 lg:shadow-lg  bg-clip-padding backdrop-filter backdrop-blur-xl  text-white border border-[#ffffff3f]  py-4 rounded-2xl text-sm md:text-base hover:shadow-md duration-200 transition ease-in-out text-center">
-              <div className="grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center">
+            <section className=" p-8 w-[90%] lg:shadow-lg  bg-clip-padding backdrop-filter backdrop-blur-xl  text-white border border-[#ffffff3f]  py-4 rounded-2xl text-sm md:text-base hover:shadow-md duration-200 transition ease-in-out text-center">
+              <div className="flex flex-row space-x-2 items-center">
                 <img
                   alt="KevinWestick"
                   src="/kevin_westick.jpg"
-                  className="aspect-square mx-auto w-full md:flex rounded-lg object-cover"
+                  className="aspect-square  md:flex h-28 w-28 mx-6 rounded-full object-cover"
                 />
 
-                <blockquote className="sm:col-span-2 max-h-[20rem] overflow-auto">
+                <blockquote className="my-auto pt-4 max-h-[20rem] overflow-auto">
                   <p className="text-base">
                     Elodie was instrumental in designing solutions to the
                     specific problems we have on our site. She was able to
@@ -48,7 +48,7 @@ export default function Testimonials() {
                 <img
                   alt="Avatar"
                   src="/avatar2.jpg"
-                  className="aspect-square w-full rounded-lg object-cover"
+                  className="aspect-square  object-cover h-28 w-28 rounded-full"
                 />
 
                 <blockquote className="sm:col-span-2">

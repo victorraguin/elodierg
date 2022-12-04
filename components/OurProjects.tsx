@@ -1,19 +1,20 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
-import test1 from "../public/test1.jpg";
 import Image from "next/image";
-import wilder from "../public/wilder_restoration.jpg";
-import cowichan from "../public/cowichan-watershed.jpg";
+import project2 from "../public/Project2.jpg";
+import test1 from "../public/test1.jpg";
 // import streamside from "../public/streamside.png";
-import epicButton from "../public/epicButton.png";
+import Link from "next/link";
+import moreProjects from "/public/moreProjects.png";
+import { useRouter } from "next/router";
 
 export default function OurProjects() {
+  const router = useRouter();
   return (
-    <>
+    <div className="w-fit">
       <h2 className="text-4xl md:text-6xl text-[#58623D] font-medium font-Valky text-center mb-10 ">
         Our Projects
       </h2>
-      <div className="flex flex-row flex-wrap md:flex-nowrap pb-10 px-4 md:space-x-10 xl:space-x-0 md:px-20 3xl:px-60">
+      <div className="flex flex-row flex-wrap md:flex-nowrap px-4 md:space-x-10 xl:space-x-0 md:px-20 3xl:px-60">
         <div className="flex flex-col  items-center w-fit relative">
           <Image
             src={test1}
@@ -24,47 +25,41 @@ export default function OurProjects() {
             Landslide Mitigation and Erosion Control
           </h3>
           <p className="text-lg pt-5  text-center w-[90%] md:w-full xl:w-[90%] mx-auto">
-            We support our clients and partners in{" "}
-            <strong>
-              stabilizing eroding banks and mitigating landslides risks
-            </strong>
-            . We developed solutions to
-            <strong> landslide recovery</strong> and mitigation using an
-            interdisciplinary approach. We assessed bank{" "}
-            <strong>stabilityz, risks and safety concerns </strong>
-            and revegetated their coastal bluff using native species and
+            We supported our clients in mitigating landslide risks and improving
+            bank stability. We developed solutions to landslide recovery and
+            mitigation using an interdisciplinary approach. We assessed risks
+            and safety concerns associated with the collapse of shoreline and
+            revegetated their coastal bluff using native species and
             bioengineering techniques.
           </p>
         </div>
         <div className="flex flex-col justify-center items-center w-fit relative pt-20 md:pt-0">
           <Image
-            src={test1}
-            alt="Project1"
+            src={project2}
+            alt="Project2"
             className="lg:w-[70%] rounded-2xl  mb-10"
           />
           <h3 className="text-2xl text-[#58623D]  font-Valky text-center font-semibold">
             Twinned-Watershed Project
           </h3>
           <p className="text-lg pt-5 text-center w-[90%] md:w-full xl:w-[90%] mx-auto font-normal ">
-            We worked closely with{" "}
-            <strong>Cowichan Watershed Board and Cowichan Tribes</strong> to
-            assess riparian habitat health along the Chemainus and Koksilah
-            rivers. The riparian vegetation assessment integrated the cultural
-            significances of the place with current condition of riparian
-            ecosystems adjacent to{" "}
-            <strong>important fish-bearing reaches</strong>. This project
-            brought forward the concept of <strong>“whole-watershed”</strong>{" "}
-            approach when identifying conservation and natural resources
+            We worked closely with Cowichan Watershed Board and Cowichan Tribes
+            to assess riparian habitat health along the Chemainus and Koksilah
+            rivers (BC). The riparian vegetation assessment integrated the
+            cultural significances of the place with current condition of
+            riparian ecosystems adjacent to important fish-bearing reaches. This
+            project brought forward the concept of “whole-of-watershed” approach
+            when identifying and implementing conservation and natural resources
             management priorities.
           </p>
         </div>
       </div>
-      {/* <div className="relative hover:cursor-pointer pt-10">
-        <Image src={epicButton} alt="Epic Button" className="w-[18%] mx-auto" />
-        <h3 className="text-2xl text-[#58623D]  pt-10 font-Valky text-center font-semibold absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          More Projects?
-        </h3>
-      </div> */}
-    </>
+        <Image
+          src={moreProjects}
+          alt="Epic Button"
+          className="md:w-[16%] mx-auto pt-5 cursor-pointer"
+          onClick={() => router.push("#contact-us")}
+        />
+    </div>
   );
 }

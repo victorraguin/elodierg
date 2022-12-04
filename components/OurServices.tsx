@@ -10,7 +10,7 @@ export default function OurServices() {
       </h2>
       <div className="relative">
         <div
-          className="h-[45rem] md:h-[25rem] bg-cover mb-20 bg-center bg-no-repeat brightness-[0.60] shadow-md shadow-black"
+          className="h-[48rem] md:h-[25rem] bg-cover mb-20 bg-center bg-no-repeat brightness-[0.60] shadow-md shadow-black"
           style={{ backgroundImage: `url(/transition_photo.jpg)` }}></div>
         <div className="flex absolute z-20 top-0 md:top-5 flex-row flex-wrap md:space-x-10 md:flex-nowrap xl:px-[5rem] 2xl:px-[10rem] md:px-[20rem] 3xl:px-[22rem] md:pt-10 justify-around w-full pb-4 lg:shadow-lg lg:rounded-lg">
           <div className="flex flex-col items-center w-[50%] md:w-full ">

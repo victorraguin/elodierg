@@ -16,7 +16,7 @@ export default function Intro() {
           <Image
             src={wline}
             alt="Separator"
-            className="mx-auto w-3/4 absolute top-20 mt-5 rounded-full z-20 h-[0.1rem]"
+            className="mx-auto w-3/4 absolute top-20 mt-5 md:mt-10 rounded-full z-20 h-[0.1rem]"
           />
           <Image
             alt="Origins Environmental Services"
