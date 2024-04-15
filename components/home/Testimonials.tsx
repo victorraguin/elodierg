@@ -9,10 +9,10 @@ export default function Testimonials() {
         <div
           className="h-[100rem] md:h-[35rem] bg-cover bg-center bg-no-repeat brightness-75 shadow-md shadow-black"
           style={{ backgroundImage: `url("/testimonials-bg.jpg")` }}></div>
-        <div className="flex flex-row flex-wrap md:flex-nowrap px-2 2xl:px-20 3xl:px-40 pb-10 absolute top-[6rem] z-20">
-          <div className="mx-auto max-w-6xl px-4 py-8">
-            <section className=" p-8 w-[90%] lg:shadow-lg  bg-clip-padding backdrop-filter backdrop-blur-xl  text-white border border-[#ffffff3f]  py-4 rounded-2xl text-sm md:text-base hover:shadow-md duration-200 transition ease-in-out text-center">
-              <div className="flex flex-row space-x-2 items-center">
+        <div className="flex w-full flex-row flex-wrap md:flex-nowrap px-2 2xl:px-20 3xl:px-40 pb-10 absolute top-[6rem] z-20">
+          <div className="mx-auto max-w-5xl px-4 py-8">
+            <section className=" p-8 md:w-[90%] lg:shadow-lg  bg-clip-padding backdrop-filter backdrop-blur-xl  text-white border border-[#ffffff3f]  py-4 rounded-2xl text-sm md:text-base hover:shadow-md duration-200 transition ease-in-out text-center">
+              <div className="flex flex-col w-full md:flex-row space-x-2 items-center">
                 <img
                   alt="KevinWestick"
                   src="/kevin_westick.jpg"
@@ -32,19 +32,20 @@ export default function Testimonials() {
                     dealing with the erosion issues.
                   </p>
 
-                  <cite className="mt-8 inline-flex items-center not-italic">
+
+                </blockquote>
+                <cite className="mt-8 inline-flex items-center not-italic">
                     <span className="hidden h-px w-6 bg-gray-400 sm:inline-block"></span>
                     <p className="text-sm uppercase text-white sm:ml-3">
                       <strong>Kevin Westick</strong>, Project Recipient
                     </p>
                   </cite>
-                </blockquote>
               </div>
             </section>
           </div>
           <div className="mx-auto max-w-5xl px-4 py-8 my-auto">
             <section className=" p-8 lg:shadow-lg  bg-clip-padding backdrop-filter backdrop-blur-xl  text-white border border-[#ffffff3f]  py-4 rounded-2xl text-sm md:text-base hover:shadow-md duration-200 transition ease-in-out text-center">
-              <div className="grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center">
+              <div className="grid grid-cols-1 gap-12 sm:grid-cols-3 place-items-center">
                 <img
                   alt="Avatar"
                   src="/avatar2.jpg"

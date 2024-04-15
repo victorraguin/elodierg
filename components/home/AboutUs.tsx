@@ -1,23 +1,18 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
-import team from "/public/Elodie-Roger.jpg";
-import epicButton from "/public/epicButton.png";
 import epicButton2 from "/public/epicButton2.png";
-import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
-import Link from "next/link";
 import { useRouter } from "next/router";
 
 export default function AboutUs() {
-
   const router = useRouter();
   return (
     <>
-      <div className="bg-[#EBEBEB] flex flex-col justify-center w-full  mb-10 ">
-        <div className="bg-[#EBEBEB] lg:py-12 lg:flex lg:justify-center">
-          <div className="bg-white lg:mx-8 lg:flex lg:max-w-[80rem] lg:shadow-lg lg:rounded-lg">
+      <div className="bg-[#EBEBEB] flex flex-col justify-center w-full  mt-20 mb-10 ">
+        <div className="lg:pt-12 lg:flex lg:justify-center">
+          <div className="bg-white lg:mx-8 lg:flex lg:shadow-lg lg:rounded-lg">
             <div className="lg:w-1/2">
               <div
-                className="h-[35rem] shadow-[inset_0_20px_5px_0_#EBEBEB] md:shadow-none md:h-64 bg-cover lg:rounded-lg lg:h-full"
+                className="h-[35rem] shadow-[inset_0_20px_5px_0_#EBEBEB] md:shadow-none md:h-screen bg-cover lg:rounded-lg lg:h-full"
                 style={{ backgroundImage: `url("/Elodie-Roger.jpg")` }}></div>
             </div>
             <div className="py-12 px-6 max-w-xl lg:max-w-7xl lg:w-3/4">
@@ -84,11 +79,11 @@ export default function AboutUs() {
                 </Link>
               </div> */}
               <Image
-                  src={epicButton2}
-                  alt="Epic Button"
-                  className="md:w-[40%] mx-auto pt-5 cursor-pointer hover:translate-x-1 duration-300 ease-in-out"
-                  onClick={() => router.push("#contact-us")}
-                />
+                src={epicButton2}
+                alt="Epic Button"
+                className="md:w-[40%] mx-auto pt-5 cursor-pointer hover:translate-x-1 duration-300 ease-in-out"
+                onClick={() => router.push("#contact-us")}
+              />
             </div>
           </div>
         </div>

@@ -25,6 +25,10 @@ module.exports = {
         // => @media (min-width: 1920px) { ... }
         "4xl": "2560px",
         // => @media (min-width: 2560px) { ... }
+        '5xl': '3440px',
+        // => @media (min-width: 3440px) { ... }
+        '6xl': '3840px',
+        // => @media (min-width: 3840px) { ... }
       },
       colors: {
         secondary: {

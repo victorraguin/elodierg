@@ -10,7 +10,7 @@ import Menu from "./menu";
 export default function Intro() {
   return (
     <>
-      <div className={`font-Ambit bg-black`}>
+      <div className={`font-Ambit bg-black h-screen`}>
         <Menu />
         <div className="flex flex-col justify-center items-center">
           <Image
@@ -33,7 +33,7 @@ export default function Intro() {
             species planting to achieve greater riparian, watershed, and
             community health.
           </h2>
-          {/* <div className="z-30 md:mt-20  3xl:mt-20 xl:mt-10 2xl:mt-8 shadow-black shadow-sm bg-clip-padding backdrop-filter backdrop-blur-2xl  text-white border border-[#ffffff3f]  rounded-xl  duration-200 transition ease-in-out text-center flex flex-col w-[20rem] md:w-[30rem] h-[12rem]">
+          <div className="hidden lg:flex z-30 md:mt-20  3xl:mt-20 xl:mt-10 2xl:mt-8 shadow-black shadow-sm bg-clip-padding backdrop-filter backdrop-blur-2xl  text-white border border-[#ffffff3f]  rounded-xl  duration-200 transition ease-in-out text-center flex-col w-[20rem] md:w-[30rem] h-[12rem]">
             <div>
               <h4 className="text-base md:text-xl text-left px-6  pt-4 text-gray-400 tracking-[0.06rem] font-light">
                 VANCOUVER ISLAND
@@ -51,7 +51,7 @@ export default function Intro() {
                 </a>
               </div>
             </div>
-          </div> */}
+          </div>
           <Image
           src={transition}
           alt="Separator"

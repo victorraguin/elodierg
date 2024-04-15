@@ -17,19 +17,27 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex flex-col justify-center items-center bg-[#EBEBEB] h-full font-Ambit">
-        <div className="bg-[#EBEBEB]">
+        <div>
           <Intro />
-          <div className="pt-40 xl:pt-[22rem] 2xl:pt-[25rem] 3xl:pt-[25rem]">
-          <AboutUs />
+          <div className="pt-40 md:pt-[25rem] xl:pt-[1rem] 2xl:pt-[25rem] 3xl:pt-[15rem]">
+            <AboutUs />
           </div>
           <OurServices />
           <div className="w-fit">
-
-          <OurProjects />
+            <OurProjects />
           </div>
           <Testimonials />
           <ContactUs />
-          <p className="text-center pb-10">Made with ❤, by <a href="https://fr.linkedin.com/in/victor-raguin" target="_blank" rel="noreferrer" className="underline">Victor</a></p>
+          <p className="text-center pb-10">
+            Made with ❤, by{" "}
+            <a
+              href="https://fr.linkedin.com/in/victor-raguin"
+              target="_blank"
+              rel="noreferrer"
+              className="underline">
+              Victor
+            </a>
+          </p>
         </div>
       </main>
     </div>
